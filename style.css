@@ -1,0 +1,26 @@
+.pixel {
+    flex: 1;
+}
+.pixel-active {
+    flex: 1;
+    background-color: black;
+}
+
+body, html {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
